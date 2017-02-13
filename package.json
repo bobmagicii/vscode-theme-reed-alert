@@ -1,0 +1,35 @@
+{
+	"name": "theme-reedalert",
+	"displayName": "Reed Alert Theme",
+	"description": "It's very red.",
+	"version": "1.0.0",
+	"publisher": "bobmagicii",
+	"icon": "images/icon.png",
+	"galleryBanner": {
+		"color": "#413d3d",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "*"
+	},
+	"categories": [
+		"Themes"
+	],
+	"license": "BSD-2-Clause",
+	"bugs": {
+		"url": ""
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bobmagicii/vscode-theme-reed-alert"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Reed Alert",
+				"uiTheme": "vs-dark",
+				"path": "themes/reed-alert.tmTheme"
+			}
+		]
+	}
+}
